@@ -1,0 +1,55 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-card {
+  width: 50%;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 32px;
+  font-weight: 600;
+  color: #0b69ff;
+  margin-bottom: 20px;
+}
+.para-style {
+  font-size: 28px;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.generateBtn {
+  height: 45px;
+  width: 110px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #0b69ff;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.randomNumber {
+  font-size: 44px;
+  color: #0b69ff;
+  font-weight: 800;
+}
